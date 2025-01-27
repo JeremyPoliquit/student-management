@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",  // Root directory of your project
     "paths": {
-      "@/*": ["./*"]
+      "@pages/*": ["pages/*"],  // Resolves to root/pages
+      "@components/*": ["components/*"],  // Resolves to root/components
+      "@lib/*": ["lib/*"],  // Resolves to root/lib
+      "@hooks/*": ["hooks/*"],  // Resolves to root/hooks
+      "@public/*": ["public/*"]
     }
   }
 }
